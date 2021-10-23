@@ -40,9 +40,9 @@ function ContactForm() {
          e.preventDefault();
 
          const availableContact = contacts.find(contact =>  contact.name.toLowerCase() === name.toLowerCase())
-
+        
             if (availableContact) {
-                alert(`${contacts.name} is already in contacts.`);
+                alert(`${availableContact.name} is already in contacts.`);
                 return;
          };
          

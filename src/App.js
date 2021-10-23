@@ -8,10 +8,9 @@ import authSelectors from './redux/auth/auth-selectors';
 import PrivateRoute from 'components/PrivateRoute';
 import PublicRoute from 'components/PublicRoute';
 import Spinner from './components/Spinner';
-
-const PhonebookAppBar = lazy(() => import('./components/AppBar/AppBar'));
+import HomeView from './views/HomeView';
+import PhonebookAppBar from './components/AppBar/AppBar';
 const PhonebookView = lazy(() => import('./views/PhonebookView'));
-const HomeView = lazy(() => import('./views/HomeView'));
 const RegisterView = lazy(() => import('./views/RegisterView'));
 const LoginView = lazy(() => import('./views/LoginView'));
 
