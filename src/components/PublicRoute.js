@@ -1,0 +1,16 @@
+import { useSelector } from "react-redux";
+import { Route, Redirect } from 'react-router-dom';
+import authSelecttors from '../redux/auth/auth-selectors';
+
+
+export default function PublicRoute({
+    children,
+    restricted = false,
+    ...routeProps
+}) {
+    const isLoggedIn = useSelector(authSelecttors.getIsLoggedIn);
+    const shouldRedirect = isLoggedIn && restricted;
+    return <Route {...routeProps}>
+        {shouldRedirect ? <Redirect to="/phonebook" /> : children}
+    </Route>
+};

@@ -1,0 +1,58 @@
+.contactFormContainer {
+    margin-left: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    /* height: 200px; */
+    padding: 10px;
+
+    border: 1px solid black;
+}
+
+.label {
+    font-family: montserrat;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.inputName {
+    width: 200px;
+}
+
+.inputTel {
+    width: 200px;
+}
+
+.btn {
+    font-family: montserrat;
+    font-weight: 400;
+    width: 120px;
+    height: 30px;
+}
+
+.btnText {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.delBtn {
+margin-left: 5px;
+height: 15px;
+}
+
+.contactsList {
+    font-family: montserrat;
+    font-weight: 400;
+}
+
+.contactsListItem:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.contactsListItem {
+    display: flex;
+    width: 250px;
+}

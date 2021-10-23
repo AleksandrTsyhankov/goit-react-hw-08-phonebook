@@ -1,0 +1,14 @@
+{
+  "contacts": [
+    {
+      "id": "05899dfc-ff53-45ce-a9c4-e4ea11f7bccb",
+      "name": "Aleksandr",
+      "number": "1121212112"
+    },
+    {
+      "id": "0c88ed68-808b-4ce7-b24a-0cd7de9d6ba0",
+      "name": "Tatyana",
+      "number": "11212122112"
+    }
+  ]
+}

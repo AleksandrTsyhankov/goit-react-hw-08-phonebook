@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 35px;
+    /* border-bottom: 1px solid #2A363B; */
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12;
+    font-weight: 700;
+    color: #e1eaee;
+    margin-right: 10px;
+  }
+
+.activeLink {
+    color: #E84A5F;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    margin-right: 4;
+    margin-right: 10px;
+}
+
+.name {
+    font-weight: 700;
+    margin-right: 12;
+}
+
+.loginContainer {
+    margin-left: 40px;
+}
