@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import authOperations from '../redux/auth/auth-operations';
-import s from './Views.module.css';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
+import authOperations from '../redux/auth/auth-operations';
+import s from './Views.module.css';
+
 
 
 export default function LoginView() {
@@ -43,7 +44,6 @@ export default function LoginView() {
               name="email"
               value={email}
               onChange={handleChange}
-              // color="secondary"
             />
           </label>
 
@@ -55,7 +55,6 @@ export default function LoginView() {
               name="password"
               value={password}
               onChange={handleChange}
-              // color="secondary"
             />
           </label>
 

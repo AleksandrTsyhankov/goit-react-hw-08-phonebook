@@ -1,7 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import s from './AppBar.module.css';
 import Typography from '@mui/material/Typography';
+import s from './AppBar.module.css';
+
 
 export default function AuthNav() {
   return (

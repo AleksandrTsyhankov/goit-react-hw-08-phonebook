@@ -1,9 +1,10 @@
 import React from 'react';
+import Button from '@mui/material/Button';
 import { useDispatch, useSelector } from 'react-redux';
 import s from './ContactStyles.module.css';
 import { deleteContact } from '../../redux/phonebook/phonebook-operations';
 import { getFilteredContacts } from '../../redux/phonebook/phonebook-selectors';
-import Button from '@mui/material/Button';
+
 
 
 function ContactList() {

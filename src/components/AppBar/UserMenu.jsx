@@ -1,9 +1,10 @@
 import { useDispatch, useSelector } from 'react-redux';
+import Button from '@mui/material/Button';
 import authSelectors from '../../redux/auth/auth-selectors';
 import authOperations from '../../redux/auth/auth-operations';
 import defaultAvatar from './default-avatar.png';
 import s from './AppBar.module.css';
-import Button from '@mui/material/Button';
+
 
 
 const styles = {

@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import authOperations from '../redux/auth/auth-operations';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
+import authOperations from '../redux/auth/auth-operations';
 import s from './Views.module.css';
 
 const styles = {

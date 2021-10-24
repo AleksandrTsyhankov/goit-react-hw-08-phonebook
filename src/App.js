@@ -1,6 +1,5 @@
 import { useEffect, Suspense, lazy } from 'react';
 import { Switch } from 'react-router-dom';
-// import { PublicRoute, PrivateRoute } from "react-private-public-route";
 import { useDispatch, useSelector } from 'react-redux';
 import authOperations from './redux/auth/auth-operations';
 import { fetchContacts } from './redux/phonebook/phonebook-operations';

@@ -1,10 +1,11 @@
 import React from 'react';
-import s from './Filter.module.css';
-import { v4 as uuidv4 } from 'uuid';
+import TextField from '@mui/material/TextField';
 import { connect } from 'react-redux'
+import { v4 as uuidv4 } from 'uuid';
+import s from './Filter.module.css';
 import { filterContacts } from '../../redux/phonebook/phonebook-actions';
 import { getFilter } from '../../redux/phonebook/phonebook-selectors';
-import TextField from '@mui/material/TextField';
+
 
 function Filter ({ onChange, value }) {
     const idF = uuidv4();

@@ -1,14 +1,11 @@
-import { useSelector } from 'react-redux';
 import React from 'react';
+import { useSelector } from 'react-redux';
+import AppBar from '@mui/material/AppBar';
 import Navigation from './Navigation';
 import UserMenu from './UserMenu.jsx';
 import AuthNav from './AuthNav';
 import authSelectors from '../../redux/auth/auth-selectors';
 import s from './AppBar.module.css';
-
-import AppBar from '@mui/material/AppBar';
-
-
 
 
 export default function PhonebookAppBar() {
